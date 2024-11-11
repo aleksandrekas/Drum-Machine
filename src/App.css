@@ -132,3 +132,36 @@ input::-webkit-slider-thumb{
   border: 2px solid black;
   z-index: 1;
 }
+
+
+@media only screen and (max-width:650px){
+  #drum-machine{
+    flex-direction: column;
+  }
+
+  #left-display{
+    margin: 2rem;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width:420px){
+  #drum-machine{
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+  }
+
+  #display{
+
+    gap: 5px;
+  }
+
+  .drum-pad button{
+    width: 70px;
+    height: 56px;
+  }
+}
