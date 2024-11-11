@@ -35,6 +35,7 @@
 }
 
 .drum-pad button{
+  color: black;
   width: 100px;
   height: 80px;
   font-size: 1rem;
@@ -43,7 +44,7 @@
   background-color: #808080;
   border-radius: 5px;
   border: none;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 4px 4px 5px black;
   cursor: pointer;
 }
 
