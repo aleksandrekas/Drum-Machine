@@ -50,7 +50,7 @@ export default function DrumMachine(){
                 <DrumPad disableStatus={powerBtn.disable} action={handlePlayAudio} char={"S"} clipName={"Clap"} audio={"/Clap.mp3"}/>
                 <DrumPad disableStatus={powerBtn.disable} action={handlePlayAudio} char={"D"} clipName={"Open HH"} audio={"/Open-HH.mp3"}/>
                 <DrumPad disableStatus={powerBtn.disable} action={handlePlayAudio} char={"Z"} clipName={"Kick n'Hat"} audio={"/Kick_n_Hat.mp3"}/>
-                <DrumPad disableStatus={powerBtn.disable} action={handlePlayAudio} char={"X"} clipName={"Kick"} audio={"public/Kick.mp3"}/>
+                <DrumPad disableStatus={powerBtn.disable} action={handlePlayAudio} char={"X"} clipName={"Kick"} audio={"/Kick.mp3"}/>
                 <DrumPad disableStatus={powerBtn.disable} action={handlePlayAudio} char={"C"} clipName={"Closed HH"} audio={"/Closed-HH.mp3"}/>
             </div>
             <div id="left-display">
